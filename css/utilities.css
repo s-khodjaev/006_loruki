@@ -28,6 +28,11 @@
   transform: scale(0.98);
 }
 
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
 /* Backgrounds & Colored buttons */
 
 .bg-primary,
@@ -63,6 +68,24 @@
   color: #fff;
 }
 
+/* Text colors */
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
 /* Text sizes */
 
 .lead {
@@ -89,9 +112,27 @@
   text-align: center;
 }
 
-.btn-outline {
-  background: transparent;
-  border: 1px solid #fff;
+/* Alert */
+
+.alert {
+  background: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
 }
 
 .flex {
